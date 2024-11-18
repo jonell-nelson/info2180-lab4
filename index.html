@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    
+    <title> INFO2180 - Superhero Search </title>
+
+    <link rel="stylesheet" href="styles.css" />   
+
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Avengers Character Search</h1>
+      </div>
+    </header>
+
+    <main>
+      <section class="search container" id="search">
+
+        <div class="container">
+          <h4> Search By Full Name or By Alias </h4>
+        </div>
+
+        <form action="#" method="post">
+          <div class="form-group">
+              <input type="text" name="search" id="searchInput" placeholder="e.g: Captain America or Steve Rogers">
+          </div>
+
+          <button type="submit" id="searchbtn" class="btn">Search</button>
+        </form>
+      </section> 
+
+      <section class="result container" id="result">
+          <h1>Result</h1>
+          
+          <hr>
+
+          <div>
+            <ul class="searchList" id="superheroesList"></ul>
+          </div>
+      </section> 
+    </main>  
+    <script src="app.js"></script>
+  </body>
+</html>
